@@ -26,7 +26,7 @@ public class PrimerDeber {
         for(int i=1;i<=n;i++){
             System.out.print("introduzca la cantidad");
         numero=entrada.nextInt();
-            
+            // joe
         }
         
         
