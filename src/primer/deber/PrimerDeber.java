@@ -18,16 +18,24 @@ public class PrimerDeber {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int mayor,n,numero;
+        int mayor=0,n=0,numero;
         
         Scanner entrada=new Scanner(System.in);
         System.out.println("Ingrese la cantidad de numeros");
         n=entrada.nextInt();
+        
         for(int i=1;i<=n;i++){
-            System.out.print("introduzca la cantidad");
-        numero=entrada.nextInt();
+            System.out.print("introduzca numero "+i);
+            numero=entrada.nextInt();
+            if(numero>mayor){
+            mayor=numero;
+                    
+            }else{
+                mayor=mayor;
+            }
             
         }
+        System.out.println("el numero mayor "+mayor);
         
         
     }
